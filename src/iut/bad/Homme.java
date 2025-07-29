@@ -6,8 +6,7 @@ public class Homme extends Humain {
     private int age;
 
     public Homme(String nom, String prenom, int age) {
-        this.nom = nom;
-        this.prenom = prenom;
-        this.age = age;
+        super(nom, prenom, age);
     }
+
 }
