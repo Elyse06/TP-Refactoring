@@ -19,6 +19,15 @@ public class Humain {
     public void details() {
         System.out.println(this.toString());
     }
+    
+    public void manger() {
+        System.out.println(prenom + " mange.");
+    }
+
+    public void boire() {
+        System.out.println(prenom + " boit.");
+    }
+
 
 }
 
